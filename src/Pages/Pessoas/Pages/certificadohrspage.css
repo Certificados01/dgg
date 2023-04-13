@@ -1,0 +1,299 @@
+.container-certificado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #19233E;
+  overflow-y: auto; 
+  }
+  
+  .logo-certificado {
+    max-width: 10%;
+    margin-top: -1vh;
+    margin-bottom: 0vh;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 28%;
+    height: 87%;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    width: 210%;
+    height: 4.1rem;
+  }
+  
+  .form-field label {
+    font-size: 14px;
+    margin: 2px;
+  }
+  
+  .form-field input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+  }
+  
+  .btn-certificado {
+    position: relative;
+    background-color: #b22029;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  
+  .btn-certificado:hover {
+    background-color: #8e1d24;
+  }
+
+  .download {
+    display: none;
+    position: relative;
+    background-color: #b22029;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .download:hover {
+    background-color: #8e1d24;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+  }
+
+  .btn-enviar-certificado {
+    position: relative;
+    background-color: #19233E;
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px
+  }
+  
+  .btn-enviar-certificado:hover {
+    background-color: #B22029;
+  }
+
+  .btn-voltar-certificado {
+    position: relative;
+    border-radius: 2em;
+    padding: 7px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    font-size: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -5vh;
+    margin-right: -90vw;
+
+  }
+
+  .btn-text-voltar{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .btn-voltar-certificado:hover {
+    background-color: #B22029;
+  }
+  
+  body{
+    font-family: 'Noto Serif Lao', serif;
+  }
+
+  iframe {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .pdf-iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 425px) {
+    
+    .container-certificado {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100vh;
+      background-color: #19233E;
+      overflow-y: auto;
+      }
+      
+      .logo-certificado {
+        max-width: 50%;
+        margin-top: -0.8vh;
+        margin-bottom: 1vh;
+      }
+      
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        width: 80%;
+        height: 85%;
+      }
+      
+      .form-field {
+        display: flex;
+        flex-direction: column;
+        width: 210%;
+        height: 100%;
+      }
+      
+      .form-field label {
+        font-size: 100%;
+        margin: 5px;
+      }
+      
+      .form-field input {
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        background-color: #f5f5f5;
+      }
+      
+      .btn-certificado {
+        display: none;
+        background-color: #b22029;
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        padding: 7px 100px;
+        font-size: 150%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-block-start: 10%;
+      }
+      
+      .btn-certificado:hover {
+        background-color: #8e1d24;
+      }
+      
+      .btn-enviar-certificado {
+        display: none;
+        position: relative;
+        background-color: #19233E;
+        color: #fff;
+        font-size: 200%;
+        padding: 10px 100px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: 10px
+      }
+      
+      .btn-enviar-certificado:hover {
+        background-color: #B22029;
+      }
+
+      .download {
+        display: flex;
+        position: relative;
+        background-color: #b22029;
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        padding: 7px 100px;
+        font-size: 150%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+      }
+      
+      .btn-download:hover {
+        background-color: #8e1d24;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 100%;
+      }
+    
+      .btn-voltar-certificado {
+        display: none;
+        position: absolute;
+        border-radius: 20px;
+        padding: 10px 20px;
+        background-color: #ffffff;
+        color: #000000;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 93vh;
+        margin-right: 0vw;
+    
+      }
+      
+      .remove {
+        display: none;
+      }
+
+      .btn-text-voltar{
+        text-decoration: none;
+        color: #000000;
+      }
+    
+      .btn-voltar-certificado:hover {
+        background-color: #B22029;
+      }
+      
+      body{
+        font-family: 'Noto Serif Lao', serif;
+      }
+    
+
+  }
